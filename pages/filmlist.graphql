@@ -1,0 +1,13 @@
+query allFilms {
+    allFilms {
+        films {
+            ...filmList
+        }
+    }
+}
+
+
+fragment filmList on Film {
+    id
+    title
+}

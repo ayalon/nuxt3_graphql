@@ -1,0 +1,9 @@
+// Import Bulma's core
+@import "bulma/sass/utilities/_all";
+
+@import "~/assets/scss/variables.scss";
+
+// Import Bulma and Buefy styles
+@import "bulma/bulma.sass";
+
+@import "layout/layout";

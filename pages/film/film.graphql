@@ -1,0 +1,10 @@
+query filmById($filmId: ID) {
+    film(id: $filmId) {
+        ...film
+    }
+}
+
+fragment film on Film {
+    title
+    director
+}

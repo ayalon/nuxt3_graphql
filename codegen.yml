@@ -1,0 +1,8 @@
+schema: https://swapi-graphql.netlify.app/.netlify/functions/index/
+documents: "./**/*.graphql"
+generates:
+  ./graphql/operations.ts:
+    plugins:
+      - typescript
+      - typescript-operations
+      - typed-document-node
